@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>welcome to kokoa talk</title>
-  </head>
-  <body>
-    <div id="status-bar">
-      <div class="status-bar__column">
-        <span>no service</span>
-        <i class="fa-solid fa-wifi"></i>
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M8.288 15.038a5.25 5.25 0 017.424 0M5.106 11.856c3.807-3.808 9.98-3.808 13.788 0M1.924 8.674c5.565-5.565 14.587-5.565 20.152 0M12.53 18.22l-.53.53-.53-.53a.75.75 0 011.06 0z"
-          />
-        </svg>
+    <title>Welcome to Kokoa Clone</title>
       </div>
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <div class="status-bar__column"<i class="fa-solid fa-bolt"></i>
-        <span>110%</span>
-        <i class="fa-solid fa-battery-full"></i>
-        <i class="fa-solid fa-bolt"></i>
+    <body>
+      <div id="status-bar">
+        <div class="status-bar__column">
+          <span>no service</span>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fas fa-battery-full fa-lg"></i>
+          <i class="fas fa-bolt"></i>
       </div>
     </div>
-    <script src="https://kit.fontawesome.com/b5785f432e.js" crossorigin="anonymous">
-    
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <script
+    <script src="https://kit.fontawesome.com/b5785f432e.js" 
+    crossorigin="anonymous">
     </script>
   </body>
 </html>
