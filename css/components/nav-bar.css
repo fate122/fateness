@@ -34,3 +34,15 @@
   left: 15px;
   bottom: 15px;
 }
+
+.nav__gear {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  display: flex;
+  font-weight: 600;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
