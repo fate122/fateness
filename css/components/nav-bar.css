@@ -34,13 +34,3 @@
   left: 15px;
   bottom: 15px;
 }
-.gear {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 5px;
-  display: flex;
-  position: absolute;
-  right: 15px;
-  top: 70px;
-}
