@@ -42,7 +42,16 @@
   border-radius: 5px;
   display: flex;
   font-weight: 600;
-  position: absolute;
-  right: 10px;
-  top: 10px;
+  float: right;
+  left: 28px;
+  top: -15px;
+}
+
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__icons span:first-child {
+  margin-top: 5px;
 }
